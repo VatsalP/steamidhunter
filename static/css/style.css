@@ -1,0 +1,138 @@
+body {
+    background: #001b33;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 16px;
+}
+/*
+div {
+    display: box;
+}*/
+
+header {
+    color: #0088ff;
+    text-align: center;
+    margin: 4% 0 4%;
+}
+    header h1 {
+        font-size: 64px;
+        font-family: 'Passion One', algerian, cursive;
+        margin-bottom: 1%;
+    }
+ 
+    nav ul {
+        list-style: none;
+        font-size: 18px;
+        /*font-weight: 600;*/
+    }
+    
+        nav ul li {
+            display: inline;
+            margin-left: 0.5%;
+        }
+    
+
+article {
+    background: #000d1a;
+    width: 480px;
+    color: #0065bf;
+    margin: 0 auto;
+    word-wrap: break-word;
+    border-radius: 6px;
+    box-shadow: 0 5px 4px -2px rgba(0,0,0,0.6);
+    line-height: 1.5em;
+    
+}   
+    
+    #article-stuff {
+        position: relative;
+        padding: 5% 7% 5% 6%;
+    }
+        
+        #inp {
+            width: 432px;
+            padding-bottom: 15px;
+        }
+
+            input[type="text"] {
+                position:relative;
+                width: 75%;
+                height: 5px;
+                padding: 10px;
+                border: none;
+                border-bottom: solid 3px #ff9d00;
+                transition: border 0.3s;
+                float: left;
+            }
+            
+            input[type="text"]:focus {
+                border-bottom: solid 3px #c9c9c9;
+            }
+            
+                        
+            button[name="clickit"] {
+                float: left;
+                position: relative;
+                width: 15%;
+                height: 28px;
+                background: #3498db;
+                border: none;
+                border-bottom: solid 3px #ff9d00;
+                text-decoration: none;
+                background-color: #0088ff;
+                color: #001b33;
+            }
+            
+            button[name="clickit"]:hover {
+                background-color: #001b33;
+                color: #0088ff;
+            }
+            
+    h3 {
+        font-size: 24px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        color: #ff9d00;
+    }
+    
+    #ins {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    
+    dt {
+        font-size: 14px;
+        color: #ffdd00; 
+    }
+
+footer {
+    color: #0088ff;
+    /*position: absolute;*/
+    height: 5%;
+    margin-bottom: 4%;
+    margin-top: 2%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+a {
+    color: #3ad900;
+    text-decoration: none;
+}
+    a:hover {
+        color: #eeeeee;
+    }
+    
+#about {
+    color: #ff0044;
+    padding-bottom: 15px;
+}
+
+#custom-list {
+    font-size: 14px;
+    color: #ffdd00;
+}
+
+dl, dt {
+    text-align: center;
+}

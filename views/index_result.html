@@ -1,0 +1,26 @@
+{% extends "index.html" %}
+{% block info %}
+
+{% if cond %}
+    <dd>
+            <dl>Steam 2 ID:</dl>
+            <dt>{{ ssid[0] }}</dt>
+            
+            <dl>Steam 2 ID for Goldsource<br> and Orange Box games:</dl>
+            <dt>{{ ssid[1] }}</dt>
+        
+            <dl>Steam 64 format:</dl>
+            <dt>{{ ssid[2] }}</dt>
+              
+            <dl>Steam 3 ID:</dl>
+            <dt>{{ ssid[3] }}</dt>
+                    
+            <dl>Steam profile URL</dl>
+            <dt><a href="{{ ssid[4] }}">Click me!</a></dt>
+    </dd>
+{% else %}
+    <h3>Invalid input!</h3>
+    {{ super() }}
+{% endif %}
+
+{% endblock %}

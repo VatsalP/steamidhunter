@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Steam ID hunter - Finds all the different formats of steam ids and steam profile url for a valid input">
+  <title>Steam ID Hunter</title>
+  <link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  
+  <!-- Head section -->
+  <header>
+    <h1>Steam ID Hunter</h1>
+    <nav>
+      <ul>
+        <li><a href="/">Home</li>
+        <li><a href="about">About</a></li>
+      </ul>  
+    </nav>
+  </header>
+  
+  <!-- article section -->
+  <article>
+    <div id="article-stuff">
+        <p id="about">Helps you find your steam id or someone else's steam url from their steam id. Read more about steam id <a href="https://developer.valvesoftware.com/wiki/SteamID">here</a>.
+        </p>
+        {% block content %}{% endblock %}
+    </div>
+  </article>
+  
+  <!-- Footer section -->
+  <footer>
+    <p>&copy; Copyright 2016 <a href="https://github.com/vatsalp" title="Github Profile">Vatsal Parekh</a></p>
+  </footer>
+
+</body>
+</html>

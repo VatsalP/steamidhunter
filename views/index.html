@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+
+<form action="/" method="post">
+    <div id="inp">
+        <!-- Try this one as input: 76561197960287930 -->
+        <input type="text" name="inputid" id="inputid" placeholder="Enter a Steam profile url or Steam ID" required>
+        <button name="clickit">Search</button>
+    </div>
+    <br>
+    {% block info %}
+    <h3>How to use:</h3>
+    <p id="ins">Enter input as any one of the below format:</p>
+    <ul>
+    <span id="custom-list">
+        <li>STEAM_X:Y:Z</li>
+        <li>[U:1:Z]</li>
+        <li>https://steamcommunity.com/id/(somename)</li>
+        <li>https://steamcommunity.com/profiles/7656119xxxxxxxxxx or 7656119xxxxxxxxxx</li>    
+        </span>
+        <li>where X, Y, Z and x all represent an integer</li>
+    </ul>
+    {% endblock %}
+</form>
+
+{% endblock %}
